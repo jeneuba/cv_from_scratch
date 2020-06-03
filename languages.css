@@ -1,0 +1,19 @@
+h3 {
+    color: #591c27;
+}
+
+#languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.language {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.language > img {
+    width: 75px;
+}

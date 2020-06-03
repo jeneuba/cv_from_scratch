@@ -1,0 +1,121 @@
+body {
+    background: url("img/background-image-valentino-funghi-unsplash2.jpg") no-repeat center fixed;
+    background-size: cover;
+    margin: 0px;
+
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* HEADER */
+
+#header {
+    flex: 0 1 auto;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin: 0px;
+    padding: 25px 15px;
+    list-style: none;
+    font-size: larger;
+}
+
+.menu-item {
+    padding: 1rem;
+    font-size: 1rem;
+    padding: .8rem 3rem;
+    margin: 0px 15px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #aabdbf, #4f818c);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.menu-item > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4f818c;
+}
+
+.menu-item:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.menu-item:hover a {
+    color: white;
+}
+
+#active {
+    box-shadow: none;
+}
+
+#active a {
+    color: white;
+}
+
+.menu-logo {
+    width: 25px;
+}
+
+/* CONTENT */
+
+#content {
+    flex: 1 1 auto;
+    margin: 0% 15%;
+}
+
+#text-container {
+    padding: 50px 100px 100px 100px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 75px;
+    min-height: 72%;
+}
+
+#section-title {
+    text-align: center;
+    padding: 15px;
+    color: #4f818c;
+}
+
+/* THEME COLORS */
+
+.red-rust {
+    color: #8c4646;
+}
+
+.grey-ice {
+    color: #aabdbf;
+}
+
+.blue-storm {
+    color: #4f818c;
+}
+
+.red-brown {
+    color: #591c27;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1200px) {
+    #menu {
+        flex-direction: column;
+    }
+    .menu-item {
+        margin-top: 15px;
+    }
+    .menu-logo {
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+  }

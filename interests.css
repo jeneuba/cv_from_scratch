@@ -1,0 +1,21 @@
+#section-interests {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-interest {
+    flex: 1 1 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-interest img {
+    width: 200px;
+}
+
+.section-interest h3 {
+    text-align: center;
+}
